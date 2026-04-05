@@ -5,13 +5,16 @@ myhosts:
       ansible_port: 2222
       ansible_user: ansible
       ansible_password: ansible
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
     my_host_02:
       ansible_host: 192.0.2.51
       ansible_port: 2223
       ansible_user: ansible
       ansible_password: ansible
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
     my_host_03:
       ansible_host: 192.0.2.52
       ansible_port: 2224
       ansible_user: ansible
       ansible_password: ansible
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
